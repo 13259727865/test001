@@ -6,4 +6,5 @@ class TestLogin:
         self.main = Main()
 
     def test_login(self):
-        assert True == self.main.into_login()
+        assert True == self.main.into_login().into_register().register()
+        # assert  True == self.main.into_login().scan()
