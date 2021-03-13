@@ -1,0 +1,17 @@
+anual_add:
+  - by: xpath
+    locator: //*[contains(@text,"姓名")]/../*[@text="必填"]
+    action: send_keys
+    value: 马五2
+  - by: xpath
+    locator: //*[contains(@text,"手机")]/..//*[@text="必填"]
+    action: send_keys
+    value: 13912341232
+  - by: id
+    locator: com.tencent.wework:id/aj_
+    action: find_click
+
+ok_add:
+  - by: xpath
+    locator: //*[@text="添加成功"]
+    action: find

@@ -1,4 +1,5 @@
 from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.remote.webdriver import WebDriver
 
 
@@ -6,9 +7,14 @@ from selenium.webdriver.remote.webdriver import WebDriver
 class BasePage:
     _base_url = ""
 
+    # _driver = ""
+
     def __init__(self, driver: WebDriver = None):
+        self._driver = ""
         if driver is None:
-            self._driver = webdriver.Chrome()
+            option = Options()
+            option.debugger_address = '127.0.0.1:9222'
+            self._driver = webdriver.Chrome(options=option)
         else:
             self._driver = driver
         if self._base_url != "":
@@ -16,4 +22,4 @@ class BasePage:
 
     # 定位元素方法
     def find(self, by, locator):
-        self._driver.find_element(by, locator)
+        return self._driver.find_element(by, locator)

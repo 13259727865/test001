@@ -1,0 +1,3 @@
+goto_add_member:
+  - text: 添加成员
+    action: swip_click
