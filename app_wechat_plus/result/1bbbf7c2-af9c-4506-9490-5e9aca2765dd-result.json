@@ -1,0 +1,54 @@
+{
+  "name": "test_delete_member[李四2]",
+  "status": "broken",
+  "statusDetails": {
+    "message": "FileNotFoundError: [Errno 2] No such file or directory: '../parese_action_yaml/main.yaml'",
+    "trace": "self = <app_wechat_plus.testcase.test_delete_member.TestDeleteMember object at 0x0000000003C894F0>, name = '李四2'\n\n    @pytest.mark.parametrize('name',['李四2','李四','李四3','李四5'])\n    #断言删除用户成功\n    def test_delete_member(self,name):\n>   \tselect = self.app.goto_main().goto_maillist().goto_select().select(name)\n\ntestcase\\test_delete_member.py:16: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\npage\\mainpage.py:9: in goto_maillist\n    self.parese_action(\"../parese_action_yaml/main.yaml\",\"goto_maillist\")\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <app_wechat_plus.page.mainpage.MainPage object at 0x0000000003CB3DF0>, path = '../parese_action_yaml/main.yaml', fun = 'goto_maillist'\n\n    def parese_action(self,path,fun):\n>   \twith open(path,\"r\",encoding=\"utf-8\") as yaml_file:\nE    FileNotFoundError: [Errno 2] No such file or directory: '../parese_action_yaml/main.yaml'\n\npage\\basepage.py:70: FileNotFoundError"
+  },
+  "parameters": [
+    {
+      "name": "name",
+      "value": "'李四2'"
+    }
+  ],
+  "start": 1616417776435,
+  "stop": 1616417776436,
+  "uuid": "3e7c5c2b-abdf-4d58-bbda-391e8928e601",
+  "historyId": "c1cc26a5698844c8fa9f1ee68c3d06a7",
+  "testCaseId": "c85a20845306edefcdb8bb7c33cc083c",
+  "fullName": "testcase.test_delete_member.TestDeleteMember#test_delete_member",
+  "labels": [
+    {
+      "name": "parentSuite",
+      "value": "testcase"
+    },
+    {
+      "name": "suite",
+      "value": "test_delete_member"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestDeleteMember"
+    },
+    {
+      "name": "host",
+      "value": "admin-PC"
+    },
+    {
+      "name": "thread",
+      "value": "26376-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "testcase.test_delete_member"
+    }
+  ]
+}

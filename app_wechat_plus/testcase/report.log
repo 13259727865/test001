@@ -1,0 +1,74 @@
+Mon, 22 Mar 2021 20:07:02 basepage.py[line:21] INFO find:by=xpath,locator=//*[@text="通讯录"]
+Mon, 22 Mar 2021 20:07:06 basepage.py[line:21] INFO find:by=id,locator=com.tencent.wework:id/igk
+Mon, 22 Mar 2021 20:07:07 basepage.py[line:21] INFO find:by=xpath,locator=//*[@text="搜索"]
+Mon, 22 Mar 2021 20:07:10 basepage.py[line:21] INFO find:by=xpath,locator=//*[@resource-id="com.tencent.wework:id/gzp"]/android.widget.RelativeLayout[2]
+Mon, 22 Mar 2021 20:07:12 basepage.py[line:21] INFO find:by=id,locator=com.tencent.wework:id/iga
+Mon, 22 Mar 2021 20:07:12 basepage.py[line:21] INFO find:by=xpath,locator=//*[@text="编辑成员"]
+Mon, 22 Mar 2021 20:07:14 basepage.py[line:21] INFO find:by=xpath,locator=//*[@text="删除成员"]
+Mon, 22 Mar 2021 20:07:17 basepage.py[line:21] INFO find:by=id,locator=com.tencent.wework:id/bpc
+Mon, 22 Mar 2021 20:07:51 basepage.py[line:21] INFO find:by=xpath,locator=//*[@text="通讯录"]
+Mon, 22 Mar 2021 20:07:56 basepage.py[line:21] INFO find:by=id,locator=com.tencent.wework:id/igk
+Mon, 22 Mar 2021 20:07:57 basepage.py[line:21] INFO find:by=xpath,locator=//*[@text="搜索"]
+Mon, 22 Mar 2021 20:08:00 basepage.py[line:21] INFO find:by=xpath,locator=//*[@resource-id="com.tencent.wework:id/gzp"]/android.widget.RelativeLayout[2]
+Mon, 22 Mar 2021 20:08:00 basepage.py[line:21] INFO find:by=id,locator=com.tencent.wework:id/iga
+Mon, 22 Mar 2021 20:08:02 basepage.py[line:21] INFO find:by=xpath,locator=//*[@text="编辑成员"]
+Mon, 22 Mar 2021 20:08:04 basepage.py[line:21] INFO find:by=xpath,locator=//*[@text="删除成员"]
+Mon, 22 Mar 2021 20:08:06 basepage.py[line:21] INFO find:by=id,locator=com.tencent.wework:id/bpc
+Mon, 22 Mar 2021 20:09:05 basepage.py[line:21] INFO find:by=xpath,locator=//*[@text="通讯录"]
+Mon, 22 Mar 2021 20:09:09 basepage.py[line:21] INFO find:by=id,locator=com.tencent.wework:id/igk
+Mon, 22 Mar 2021 20:09:10 basepage.py[line:21] INFO find:by=xpath,locator=//*[@text="搜索"]
+Mon, 22 Mar 2021 22:11:30 remote_connection.py[line:116] INFO Could not connect to port 4723 on host localhost
+Mon, 22 Mar 2021 22:11:30 remote_connection.py[line:135] INFO Could not get IP address for host: localhost
+Mon, 22 Mar 2021 22:11:34 connectionpool.py[line:780] WARNING Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020E10A638B0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+Mon, 22 Mar 2021 22:11:38 connectionpool.py[line:780] WARNING Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020E10A63A30>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+Mon, 22 Mar 2021 22:11:42 connectionpool.py[line:780] WARNING Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020E10A63BB0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+Mon, 22 Mar 2021 22:11:49 remote_connection.py[line:116] INFO Could not connect to port 4723 on host localhost
+Mon, 22 Mar 2021 22:11:49 remote_connection.py[line:135] INFO Could not get IP address for host: localhost
+Mon, 22 Mar 2021 22:13:35 basepage.py[line:22] INFO find:by=xpath,locator=//*[@text="通讯录"]
+Mon, 22 Mar 2021 22:13:37 basepage.py[line:22] INFO find:by=id,locator=com.tencent.wework:id/igk
+Mon, 22 Mar 2021 22:13:40 basepage.py[line:22] INFO find:by=xpath,locator=//*[@text="搜索"]
+Mon, 22 Mar 2021 22:13:43 basepage.py[line:22] INFO find:by=xpath,locator=//*[@resource-id="com.tencent.wework:id/gzp"]/android.widget.RelativeLayout[2]
+Mon, 22 Mar 2021 22:13:44 basepage.py[line:22] INFO find:by=id,locator=com.tencent.wework:id/iga
+Mon, 22 Mar 2021 22:13:47 basepage.py[line:22] INFO find:by=xpath,locator=//*[@text="编辑成员"]
+Mon, 22 Mar 2021 22:13:48 basepage.py[line:22] INFO find:by=xpath,locator=//*[@text="删除成员"]
+Mon, 22 Mar 2021 22:13:50 basepage.py[line:22] INFO find:by=id,locator=com.tencent.wework:id/bpc
+Mon, 22 Mar 2021 22:14:14 basepage.py[line:22] INFO find:by=xpath,locator=//*[@text="通讯录"]
+Mon, 22 Mar 2021 22:14:17 basepage.py[line:22] INFO find:by=id,locator=com.tencent.wework:id/igk
+Mon, 22 Mar 2021 22:14:19 basepage.py[line:22] INFO find:by=xpath,locator=//*[@text="搜索"]
+Mon, 22 Mar 2021 22:14:22 basepage.py[line:22] INFO find:by=xpath,locator=//*[@resource-id="com.tencent.wework:id/gzp"]/android.widget.RelativeLayout[2]
+Mon, 22 Mar 2021 22:14:23 basepage.py[line:22] INFO find:by=id,locator=com.tencent.wework:id/iga
+Mon, 22 Mar 2021 22:14:26 basepage.py[line:22] INFO find:by=xpath,locator=//*[@text="编辑成员"]
+Mon, 22 Mar 2021 22:14:27 basepage.py[line:22] INFO find:by=xpath,locator=//*[@text="删除成员"]
+Mon, 22 Mar 2021 22:14:29 basepage.py[line:22] INFO find:by=id,locator=com.tencent.wework:id/bpc
+Mon, 22 Mar 2021 22:14:53 basepage.py[line:22] INFO find:by=xpath,locator=//*[@text="通讯录"]
+Mon, 22 Mar 2021 22:14:56 basepage.py[line:30] ERROR 未找到元素
+Mon, 22 Mar 2021 22:15:17 basepage.py[line:22] INFO find:by=xpath,locator=//*[@text="通讯录"]
+Mon, 22 Mar 2021 22:15:20 basepage.py[line:22] INFO find:by=id,locator=com.tencent.wework:id/igk
+Mon, 22 Mar 2021 22:15:21 basepage.py[line:22] INFO find:by=xpath,locator=//*[@text="搜索"]
+Mon, 22 Mar 2021 22:15:25 basepage.py[line:22] INFO find:by=xpath,locator=//*[@resource-id="com.tencent.wework:id/gzp"]/android.widget.RelativeLayout[2]
+Mon, 22 Mar 2021 22:15:25 basepage.py[line:22] INFO find:by=id,locator=com.tencent.wework:id/iga
+Mon, 22 Mar 2021 22:15:29 basepage.py[line:22] INFO find:by=xpath,locator=//*[@text="编辑成员"]
+Mon, 22 Mar 2021 22:15:31 basepage.py[line:22] INFO find:by=xpath,locator=//*[@text="删除成员"]
+Mon, 22 Mar 2021 22:15:32 basepage.py[line:22] INFO find:by=id,locator=com.tencent.wework:id/bpc
+Mon, 22 Mar 2021 22:25:30 basepage.py[line:22] INFO find:by=xpath,locator=//*[@text="通讯录"]
+Mon, 22 Mar 2021 22:25:34 basepage.py[line:22] INFO find:by=id,locator=com.tencent.wework:id/igk
+Mon, 22 Mar 2021 22:25:37 basepage.py[line:22] INFO find:by=xpath,locator=//*[@text="搜索"]
+Mon, 22 Mar 2021 22:25:40 basepage.py[line:22] INFO find:by=xpath,locator=//*[@resource-id="com.tencent.wework:id/gzp"]/android.widget.RelativeLayout[2]
+Mon, 22 Mar 2021 22:25:41 basepage.py[line:22] INFO find:by=id,locator=com.tencent.wework:id/iga
+Mon, 22 Mar 2021 22:25:44 basepage.py[line:22] INFO find:by=xpath,locator=//*[@text="编辑成员"]
+Mon, 22 Mar 2021 22:25:46 basepage.py[line:22] INFO find:by=xpath,locator=//*[@text="删除成员"]
+Mon, 22 Mar 2021 22:25:48 basepage.py[line:22] INFO find:by=id,locator=com.tencent.wework:id/bpc
+Mon, 22 Mar 2021 22:26:14 basepage.py[line:22] INFO find:by=xpath,locator=//*[@text="通讯录"]
+Mon, 22 Mar 2021 22:26:17 basepage.py[line:22] INFO find:by=id,locator=com.tencent.wework:id/igk
+Mon, 22 Mar 2021 22:26:19 basepage.py[line:22] INFO find:by=xpath,locator=//*[@text="搜索"]
+Mon, 22 Mar 2021 22:26:22 basepage.py[line:22] INFO find:by=xpath,locator=//*[@resource-id="com.tencent.wework:id/gzp"]/android.widget.RelativeLayout[2]
+Mon, 22 Mar 2021 22:26:23 basepage.py[line:22] INFO find:by=id,locator=com.tencent.wework:id/iga
+Mon, 22 Mar 2021 22:26:27 basepage.py[line:22] INFO find:by=xpath,locator=//*[@text="编辑成员"]
+Mon, 22 Mar 2021 22:26:28 basepage.py[line:22] INFO find:by=xpath,locator=//*[@text="删除成员"]
+Mon, 22 Mar 2021 22:26:30 basepage.py[line:22] INFO find:by=id,locator=com.tencent.wework:id/bpc
+Mon, 22 Mar 2021 22:27:27 basepage.py[line:22] INFO find:by=xpath,locator=//*[@text="通讯录"]
+Mon, 22 Mar 2021 22:27:30 basepage.py[line:22] INFO find:by=id,locator=com.tencent.wework:id/igk
+Mon, 22 Mar 2021 22:27:32 basepage.py[line:22] INFO find:by=xpath,locator=//*[@text="搜索"]
+Mon, 22 Mar 2021 22:27:36 basepage.py[line:22] INFO find:by=xpath,locator=//*[@resource-id="com.tencent.wework:id/gzp"]/android.widget.RelativeLayout[2]
+Mon, 22 Mar 2021 22:27:36 basepage.py[line:22] INFO find:by=id,locator=com.tencent.wework:id/iga
+Mon, 22 Mar 2021 22:27:36 basepage.py[line:30] ERROR 未找到元素

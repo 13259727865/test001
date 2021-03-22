@@ -1,0 +1,9 @@
+delete_ok:
+  - by: id
+    locator: com.tencent.wework:id/bpc
+    action: find_click
+
+delete_no:
+  - by: id
+    locator: com.tencent.wework:id/bpa
+    action: find_click

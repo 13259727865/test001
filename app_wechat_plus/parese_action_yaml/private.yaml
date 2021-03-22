@@ -1,0 +1,9 @@
+delete_member:
+  - by: xpath
+    locator: //*[@text="删除成员"]
+    action: find_click
+
+
+delete_ok:
+  - by: xpath
+    locator: //*[@text=""]

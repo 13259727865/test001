@@ -1,0 +1,4 @@
+goto_select:
+  - by: id
+    locator: com.tencent.wework:id/igk
+    action: find_click

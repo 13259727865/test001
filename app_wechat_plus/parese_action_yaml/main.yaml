@@ -1,0 +1,4 @@
+goto_maillist:
+  - action: find_click
+    by: xpath
+    locator: //*[@text="通讯录"]

@@ -1,0 +1,5 @@
+select:
+  - by: xpath
+    locator: //*[@text="搜索"]
+    value: ${name}
+    action: send_keys

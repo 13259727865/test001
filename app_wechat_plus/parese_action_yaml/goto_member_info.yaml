@@ -1,0 +1,9 @@
+goto_member_info:
+  - by: xpath
+    locator: //*[@resource-id="com.tencent.wework:id/gzp"]/android.widget.RelativeLayout[2]
+    action: find_click
+
+result_mem:
+  - by: xpath
+    locator: //*[@resource-id="com.tencent.wework:id/gzp"]/android.widget.RelativeLayout
+    action: finds
