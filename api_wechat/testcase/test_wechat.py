@@ -17,4 +17,5 @@ class TestWe:
         assert r.get("errmsg") == "created"
         r = self.wechat.get_member(userid)
         print(r)
+
         assert r.get("userid") == userid
