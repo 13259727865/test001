@@ -4,6 +4,7 @@ from api_wechat.page.wecahtpage import Address
 
 
 class TestWe:
+
 	def setup(self):
 		self.wechat = Address()
 

@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2de7a14-1f00-4d5c-9b9c-0422342272b5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/api_wechat/page/page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/test001.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/lagou.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pony_pass/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pony_pass/pass_page/alarm_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pony_pass/pass_page/page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pony_pass/pass_testcase/test_alarm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pony_pass/pytest.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test/test_fixture.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_wechat/page/wecahtpage.py" beforeDir="false" afterPath="$PROJECT_DIR$/api_wechat/page/wecahtpage.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api_wechat/testcase/test_wechat.py" beforeDir="false" afterPath="$PROJECT_DIR$/api_wechat/testcase/test_wechat.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,35 +20,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="wecahtpage.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api_wechat/page/wecahtpage.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="62">
-              <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_wechat.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/api_wechat/testcase/test_wechat.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="page.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api_wechat/page/page.py">
+        <entry file="file://$PROJECT_DIR$/pony_pass/pass_page/page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="14" column="34" lean-forward="true" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+            <state relative-caret-position="495">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
+              <folding>
+                <element signature="e#60#74#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pytest.ini" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pony_pass/pytest.ini">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="alarm_page.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pony_pass/pass_page/alarm_page.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+              <folding>
+                <element signature="e#60#75#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -54,8 +56,38 @@
       <file leaf-file-name="sessions.py" pinned="false" current-in-tab="false">
         <entry file="file://D:/python3/Lib/site-packages/requests/sessions.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-694">
-              <caret line="462" column="8" selection-start-line="462" selection-start-column="8" selection-end-line="462" selection-end-column="8" />
+            <state relative-caret-position="309">
+              <caret line="409" column="31" selection-start-line="409" selection-start-column="31" selection-end-line="409" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cookies.py" pinned="false" current-in-tab="false">
+        <entry file="file://D:/python3/Lib/site-packages/requests/cookies.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="143">
+              <caret line="342" column="8" selection-start-line="342" selection-start-column="8" selection-end-line="342" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api_wechat/page/page.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_alarm.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pony_pass/pass_testcase/test_alarm.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="e#61#76#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -75,15 +107,21 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/api_wechat/testcase/test_wechat.py" />
         <option value="$PROJECT_DIR$/api_wechat/page/page.py" />
         <option value="$PROJECT_DIR$/api_wechat/page/wecahtpage.py" />
+        <option value="$PROJECT_DIR$/api_wechat/testcase/test_wechat.py" />
+        <option value="$PROJECT_DIR$/test/test/test_fixture.py" />
+        <option value="$PROJECT_DIR$/pony_pass/pytest.ini.py" />
+        <option value="$PROJECT_DIR$/pony_pass/pytest.ini" />
+        <option value="$PROJECT_DIR$/pony_pass/pass_testcase/test_alarm.py" />
+        <option value="$PROJECT_DIR$/pony_pass/pass_page/page.py" />
+        <option value="$PROJECT_DIR$/pony_pass/pass_page/alarm_page.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-65" />
-    <option name="y" value="27" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="15" />
+    <option name="y" value="66" />
     <option name="width" value="1892" />
     <option name="height" value="918" />
   </component>
@@ -116,6 +154,17 @@
               <item name="api_wechat" type="462c0819:PsiDirectoryNode" />
               <item name="testcase" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="lagou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lagou" type="462c0819:PsiDirectoryNode" />
+              <item name="pony_pass" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lagou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lagou" type="462c0819:PsiDirectoryNode" />
+              <item name="pony_pass" type="462c0819:PsiDirectoryNode" />
+              <item name="pass_testcase" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -139,29 +188,96 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="py.test for test_wechat.TestWe.test_creat_member" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.py.test for test_alarm.TestAlarm">
+    <configuration name="py.test for test_alarm.TestAlarm" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="lagou" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/api_wechat/testcase" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pony_pass/pass_testcase" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;-n auto&quot;" />
-      <option name="_new_target" value="&quot;test_wechat.TestWe.test_creat_member&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_alarm.TestAlarm&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
+    <configuration name="py.test for test_alarm.TestAlarm.test_alarm" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="lagou" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pony_pass/pass_testcase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_alarm.TestAlarm.test_alarm&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
+    <configuration name="py.test for test_alarm.TestAlarm.test_base64" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="lagou" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pony_pass/pass_testcase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_alarm.TestAlarm.test_base64&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
+    <configuration name="py.test for test_alarm.test_alarm" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="lagou" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pony_pass/pass_testcase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_alarm.test_alarm&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
+    <configuration name="py.test for test_alarm.test_login" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="lagou" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pony_pass/pass_testcase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_alarm.test_login&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
+    <list>
+      <item itemvalue="Python tests.py.test for test_alarm.test_login" />
+      <item itemvalue="Python tests.py.test for test_alarm.test_alarm" />
+      <item itemvalue="Python tests.py.test for test_alarm.TestAlarm.test_alarm" />
+      <item itemvalue="Python tests.py.test for test_alarm.TestAlarm.test_base64" />
+      <item itemvalue="Python tests.py.test for test_alarm.TestAlarm" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.py.test for test_wechat.TestWe.test_creat_member" />
+        <item itemvalue="Python tests.py.test for test_alarm.TestAlarm" />
+        <item itemvalue="Python tests.py.test for test_alarm.TestAlarm.test_alarm" />
+        <item itemvalue="Python tests.py.test for test_alarm.TestAlarm.test_base64" />
+        <item itemvalue="Python tests.py.test for test_alarm.test_alarm" />
+        <item itemvalue="Python tests.py.test for test_alarm.test_login" />
       </list>
     </recent_temporary>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\admin\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -178,39 +294,61 @@
       <option name="project" value="LOCAL" />
       <updated>1617021423782</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="requests-wechat">
+      <created>1617072314452</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1617072314452</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="py_test_for_test_wechat_TestWe_test_creat_member - 2021.03.30 at 10h 31m 15s.xml">
-      <configuration name="py.test for test_wechat.TestWe.test_creat_member" configurationId="tests" />
+    <history-entry file="py_test_for_test_alarm_TestAlarm - 2021.04.06 at 16h 06m 29s.xml">
+      <configuration name="py.test for test_alarm.TestAlarm" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_for_test_wechat_TestWe_test_creat_member - 2021.03.30 at 10h 32m 13s.xml">
-      <configuration name="py.test for test_wechat.TestWe.test_creat_member" configurationId="tests" />
+    <history-entry file="py_test_for_test_alarm_TestAlarm - 2021.04.06 at 16h 09m 55s.xml">
+      <configuration name="py.test for test_alarm.TestAlarm" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_for_test_wechat_TestWe_test_creat_member - 2021.03.30 at 10h 32m 36s.xml">
-      <configuration name="py.test for test_wechat.TestWe.test_creat_member" configurationId="tests" />
+    <history-entry file="py_test_for_test_alarm_TestAlarm - 2021.04.06 at 16h 47m 27s.xml">
+      <configuration name="py.test for test_alarm.TestAlarm" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_for_test_wechat_TestWe_test_creat_member - 2021.03.30 at 10h 33m 30s.xml">
-      <configuration name="py.test for test_wechat.TestWe.test_creat_member" configurationId="tests" />
+    <history-entry file="py_test_for_test_alarm_TestAlarm - 2021.04.06 at 16h 48m 38s.xml">
+      <configuration name="py.test for test_alarm.TestAlarm" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_for_test_wechat_TestWe_test_creat_member - 2021.03.30 at 10h 42m 25s.xml">
-      <configuration name="py.test for test_wechat.TestWe.test_creat_member" configurationId="tests" />
+    <history-entry file="py_test_for_test_alarm_TestAlarm - 2021.04.06 at 16h 49m 09s.xml">
+      <configuration name="py.test for test_alarm.TestAlarm" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_test_alarm_TestAlarm - 2021.04.06 at 16h 56m 38s.xml">
+      <configuration name="py.test for test_alarm.TestAlarm" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_test_alarm_TestAlarm - 2021.04.06 at 17h 01m 41s.xml">
+      <configuration name="py.test for test_alarm.TestAlarm" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_test_alarm_TestAlarm - 2021.04.06 at 17h 06m 18s.xml">
+      <configuration name="py.test for test_alarm.TestAlarm" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_test_alarm_TestAlarm - 2021.04.06 at 17h 14m 05s.xml">
+      <configuration name="py.test for test_alarm.TestAlarm" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_test_alarm_TestAlarm - 2021.04.06 at 17h 29m 57s.xml">
+      <configuration name="py.test for test_alarm.TestAlarm" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="15" y="66" width="1892" height="918" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25566342" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50052685" side_tool="true" weight="0.32897604" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49947312" visible="true" weight="0.32897604" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49947312" visible="true" weight="0.3846154" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32948717" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49894625" weight="0.32897604" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49894625" weight="0.53050107" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39978212" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -221,44 +359,196 @@
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="mitmproxy-mock" />
-    <option name="LAST_COMMIT_MESSAGE" value="mitmproxy-mock" />
+    <MESSAGE value="requests-wechat" />
+    <option name="LAST_COMMIT_MESSAGE" value="requests-wechat" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="3" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://D:/python3/Lib/site-packages/requests/sessions.py">
+    <entry file="file://D:/python3/Lib/site-packages/pytest/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-694">
-          <caret line="462" column="8" selection-start-line="462" selection-start-column="8" selection-end-line="462" selection-end-column="8" />
+        <state relative-caret-position="-934">
+          <caret line="60" column="5" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api_wechat/page/page.py">
+    <entry file="file://D:/python3/Lib/site-packages/_pytest/assertion/rewrite.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="14" column="34" lean-forward="true" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+        <state relative-caret-position="175">
+          <caret line="169" selection-start-line="169" selection-end-line="169" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业1/animal/animal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webtest/test_windows.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/python3/Lib/site-packages/requests/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2300" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api_wechat/testcase/test_wechat.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test/meiyou.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="50" column="33" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test/test_fixture.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/python3/Lib/site-packages/_pytest/fixtures.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="1296" column="75" selection-start-line="1296" selection-start-column="70" selection-end-line="1296" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业1/animal/cat.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/api_wechat/page/wecahtpage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+        <state relative-caret-position="525">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api_wechat/testcase/test_wechat.py">
+    <entry file="file://$PROJECT_DIR$/pony_pass/pytest.ini.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pony_pass/pytest.ini">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="63">
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/python3/Lib/site-packages/requests/api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pony_pass/pass_page/page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
           <folding>
-            <element signature="e#0#13#0" expanded="true" />
+            <element signature="e#60#74#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/python3/Lib/site-packages/requests/cookies.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="342" column="8" selection-start-line="342" selection-start-column="8" selection-end-line="342" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/python3/Lib/site-packages/requests/sessions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="409" column="31" selection-start-line="409" selection-start-column="31" selection-end-line="409" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api_wechat/page/page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pony_pass/pass_testcase/test_alarm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#61#76#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pony_pass/pass_page/alarm_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <folding>
+            <element signature="e#60#75#0" expanded="true" />
           </folding>
         </state>
       </provider>
