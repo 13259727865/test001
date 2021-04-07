@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2de7a14-1f00-4d5c-9b9c-0422342272b5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/pony_pass/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pony_pass/pass_page/alarm_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pony_pass/pass_page/page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pony_pass/pass_testcase/test_alarm.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pony_pass/pytest.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test/test_fixture.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_wechat/testcase/test_wechat.py" beforeDir="false" afterPath="$PROJECT_DIR$/api_wechat/testcase/test_wechat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pony_pass/pass_page/alarm_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pony_pass/pass_page/alarm_page.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -41,11 +35,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="alarm_page.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="alarm_page.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pony_pass/pass_page/alarm_page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+            <state relative-caret-position="178">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="e#60#75#0" expanded="true" />
               </folding>
@@ -53,11 +47,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sessions.py" pinned="false" current-in-tab="false">
-        <entry file="file://D:/python3/Lib/site-packages/requests/sessions.py">
+      <file leaf-file-name="utils.py" pinned="false" current-in-tab="false">
+        <entry file="file://D:/python3/Lib/site-packages/requests/utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="409" column="31" selection-start-line="409" selection-start-column="31" selection-end-line="409" selection-end-column="31" />
+            <state relative-caret-position="180">
+              <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -65,26 +59,26 @@
       <file leaf-file-name="cookies.py" pinned="false" current-in-tab="false">
         <entry file="file://D:/python3/Lib/site-packages/requests/cookies.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="342" column="8" selection-start-line="342" selection-start-column="8" selection-end-line="342" selection-end-column="8" />
+            <state relative-caret-position="189">
+              <caret line="507" column="4" selection-start-line="507" selection-start-column="4" selection-end-line="507" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="page.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api_wechat/page/page.py">
+      <file leaf-file-name="sessions.py" pinned="false" current-in-tab="false">
+        <entry file="file://D:/python3/Lib/site-packages/requests/sessions.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="315">
+              <caret line="409" column="34" selection-start-line="409" selection-start-column="34" selection-end-line="409" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_alarm.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="test_alarm.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pony_pass/pass_testcase/test_alarm.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="90">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
               <folding>
                 <element signature="e#61#76#0" expanded="true" />
               </folding>
@@ -100,6 +94,11 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>cookiejar_from_dict</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -120,8 +119,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="15" />
-    <option name="y" value="66" />
+    <option name="x" value="1938" />
+    <option name="y" value="98" />
     <option name="width" value="1892" />
     <option name="height" value="918" />
   </component>
@@ -137,34 +136,6 @@
               <item name="lagou" type="b2602c69:ProjectViewProjectNode" />
               <item name="lagou" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="lagou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lagou" type="462c0819:PsiDirectoryNode" />
-              <item name="api_wechat" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lagou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lagou" type="462c0819:PsiDirectoryNode" />
-              <item name="api_wechat" type="462c0819:PsiDirectoryNode" />
-              <item name="page" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lagou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lagou" type="462c0819:PsiDirectoryNode" />
-              <item name="api_wechat" type="462c0819:PsiDirectoryNode" />
-              <item name="testcase" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lagou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lagou" type="462c0819:PsiDirectoryNode" />
-              <item name="pony_pass" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lagou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lagou" type="462c0819:PsiDirectoryNode" />
-              <item name="pony_pass" type="462c0819:PsiDirectoryNode" />
-              <item name="pass_testcase" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -175,6 +146,116 @@
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/test.py</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -301,53 +382,59 @@
       <option name="project" value="LOCAL" />
       <updated>1617072314452</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="requests-wechat">
+      <created>1617701485008</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1617701485008</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="py_test_for_test_alarm_TestAlarm - 2021.04.06 at 16h 06m 29s.xml">
-      <configuration name="py.test for test_alarm.TestAlarm" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_for_test_alarm_TestAlarm - 2021.04.06 at 16h 09m 55s.xml">
-      <configuration name="py.test for test_alarm.TestAlarm" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_for_test_alarm_TestAlarm - 2021.04.06 at 16h 47m 27s.xml">
-      <configuration name="py.test for test_alarm.TestAlarm" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_for_test_alarm_TestAlarm - 2021.04.06 at 16h 48m 38s.xml">
-      <configuration name="py.test for test_alarm.TestAlarm" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_for_test_alarm_TestAlarm - 2021.04.06 at 16h 49m 09s.xml">
-      <configuration name="py.test for test_alarm.TestAlarm" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_for_test_alarm_TestAlarm - 2021.04.06 at 16h 56m 38s.xml">
-      <configuration name="py.test for test_alarm.TestAlarm" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_for_test_alarm_TestAlarm - 2021.04.06 at 17h 01m 41s.xml">
-      <configuration name="py.test for test_alarm.TestAlarm" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_for_test_alarm_TestAlarm - 2021.04.06 at 17h 06m 18s.xml">
-      <configuration name="py.test for test_alarm.TestAlarm" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_for_test_alarm_TestAlarm - 2021.04.06 at 17h 14m 05s.xml">
-      <configuration name="py.test for test_alarm.TestAlarm" configurationId="tests" />
-    </history-entry>
     <history-entry file="py_test_for_test_alarm_TestAlarm - 2021.04.06 at 17h 29m 57s.xml">
+      <configuration name="py.test for test_alarm.TestAlarm" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_test_alarm_TestAlarm - 2021.04.07 at 09h 37m 42s.xml">
+      <configuration name="py.test for test_alarm.TestAlarm" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_test_alarm_TestAlarm - 2021.04.07 at 09h 40m 03s.xml">
+      <configuration name="py.test for test_alarm.TestAlarm" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_test_alarm_TestAlarm - 2021.04.07 at 09h 41m 03s.xml">
+      <configuration name="py.test for test_alarm.TestAlarm" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_test_alarm_TestAlarm - 2021.04.07 at 09h 44m 13s.xml">
+      <configuration name="py.test for test_alarm.TestAlarm" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_test_alarm_TestAlarm - 2021.04.07 at 09h 45m 54s.xml">
+      <configuration name="py.test for test_alarm.TestAlarm" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_test_alarm_TestAlarm - 2021.04.07 at 09h 47m 08s.xml">
+      <configuration name="py.test for test_alarm.TestAlarm" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_test_alarm_TestAlarm - 2021.04.07 at 09h 47m 52s.xml">
+      <configuration name="py.test for test_alarm.TestAlarm" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_test_alarm_TestAlarm - 2021.04.07 at 09h 59m 44s.xml">
+      <configuration name="py.test for test_alarm.TestAlarm" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_test_alarm_TestAlarm - 2021.04.07 at 10h 30m 26s.xml">
       <configuration name="py.test for test_alarm.TestAlarm" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="15" y="66" width="1892" height="918" extended-state="0" />
-    <editor active="true" />
+    <frame x="1938" y="98" width="1892" height="918" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25566342" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50052685" side_tool="true" weight="0.32897604" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49947312" visible="true" weight="0.3846154" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49947312" visible="true" weight="0.51282054" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32948717" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49894625" weight="0.53050107" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49894625" weight="0.5294872" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39978212" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -488,13 +575,6 @@
     <entry file="file://$PROJECT_DIR$/pony_pass/pytest.ini.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pony_pass/pytest.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/python3/Lib/site-packages/requests/api.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="131">
@@ -512,20 +592,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/python3/Lib/site-packages/requests/cookies.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="342" column="8" selection-start-line="342" selection-start-column="8" selection-end-line="342" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/python3/Lib/site-packages/requests/sessions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="409" column="31" selection-start-line="409" selection-start-column="31" selection-end-line="409" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api_wechat/page/page.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -533,22 +599,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pony_pass/pass_testcase/test_alarm.py">
+    <entry file="file://$PROJECT_DIR$/pony_pass/pytest.ini">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#61#76#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="63">
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/python3/Lib/site-packages/requests/sessions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="409" column="34" selection-start-line="409" selection-start-column="34" selection-end-line="409" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/python3/Lib/site-packages/requests/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pony_pass/pass_page/alarm_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        <state relative-caret-position="178">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="e#60#75#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/python3/Lib/site-packages/requests/cookies.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="507" column="4" selection-start-line="507" selection-start-column="4" selection-end-line="507" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pony_pass/pass_testcase/test_alarm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#61#76#0" expanded="true" />
           </folding>
         </state>
       </provider>

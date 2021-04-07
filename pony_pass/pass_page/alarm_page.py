@@ -11,8 +11,8 @@ class AlarmPage(Page):
 
 	def __init__(self):
 		self.session = requests.session()
-		self.session.cookies=self.cookie
-
+		self.session.cookies=requests.utils.cookiejar_from_dict(self.login())
+		print(self.session.cookies.items)
 
 	def login(self):
 		self.response = self.session.request(method="POST",
@@ -21,10 +21,10 @@ class AlarmPage(Page):
 		                            json={"user_name":"hanc","pass_word":"dnRya2FvdGRmYnRhdGRtaWtuMTJzcWR6eDdwOXpwaGtmYw==",}
 		                            )
 		self.root_log.info("登录状态",self.response.json())
-		self.set_cookie=self.response.headers["Set-Cookie"]
-		cook = self.response.cookies.get_dict()["ponytech_sid"]
-		self.cookie = f"ponytech_sid={cook}"
-		return self.cookie
+		# self.set_cookie=self.response.headers["Set-Cookie"]
+		# cook = self.response.cookies.get_dict()["ponytech_sid"]
+		# self.cookie = f"ponytech_sid={cook}"
+		return self.response.cookies.get_dict()
 
 
 	def alarm(self):
