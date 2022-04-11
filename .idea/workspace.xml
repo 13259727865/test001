@@ -1,92 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e2de7a14-1f00-4d5c-9b9c-0422342272b5" name="Default" comment="">
+    <list default="true" id="e2de7a14-1f00-4d5c-9b9c-0422342272b5" name="Default" comment="requests-wechat">
+      <change afterPath="$PROJECT_DIR$/算法/1.两数之和.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pony_pass/pass_page/alarm_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pony_pass/pass_page/alarm_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_wechat/page/add.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/app_wechat/page/add.yaml" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="page.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pony_pass/pass_page/page.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
-              <folding>
-                <element signature="e#60#74#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pytest.ini" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pony_pass/pytest.ini">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="alarm_page.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pony_pass/pass_page/alarm_page.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <element signature="e#60#75#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="utils.py" pinned="false" current-in-tab="false">
-        <entry file="file://D:/python3/Lib/site-packages/requests/utils.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cookies.py" pinned="false" current-in-tab="false">
-        <entry file="file://D:/python3/Lib/site-packages/requests/cookies.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="507" column="4" selection-start-line="507" selection-start-column="4" selection-end-line="507" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sessions.py" pinned="false" current-in-tab="false">
-        <entry file="file://D:/python3/Lib/site-packages/requests/sessions.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="409" column="34" selection-start-line="409" selection-start-column="34" selection-end-line="409" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_alarm.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pony_pass/pass_testcase/test_alarm.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <element signature="e#61#76#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -124,6 +47,7 @@
     <option name="width" value="1892" />
     <option name="height" value="918" />
   </component>
+  <component name="ProjectId" id="1vIP37lLcaUsyGrfUaKNyaP2A6T" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -142,6 +66,10 @@
       </pane>
       <pane id="Scope" />
     </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -257,19 +185,28 @@
       </FILE-GROUP>
     </UpdatedFiles>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Python tests.py.test for test_alarm.TestAlarm">
+  <component name="RunManager" selected="Python.1.两数之和">
+    <configuration name="1.两数之和" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="lagou" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/算法" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/算法/1.两数之和.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="py.test for test_alarm.TestAlarm" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="lagou" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -280,9 +217,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_alarm.TestAlarm&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
     </configuration>
     <configuration name="py.test for test_alarm.TestAlarm.test_alarm" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="lagou" />
@@ -294,9 +233,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_alarm.TestAlarm.test_alarm&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
     </configuration>
     <configuration name="py.test for test_alarm.TestAlarm.test_base64" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="lagou" />
@@ -308,9 +249,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_alarm.TestAlarm.test_base64&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
     </configuration>
     <configuration name="py.test for test_alarm.test_alarm" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="lagou" />
@@ -322,41 +265,30 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_alarm.test_alarm&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-    </configuration>
-    <configuration name="py.test for test_alarm.test_login" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="lagou" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pony_pass/pass_testcase" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_alarm.test_login&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.py.test for test_alarm.test_login" />
-      <item itemvalue="Python tests.py.test for test_alarm.test_alarm" />
+      <item itemvalue="Python tests.py.test for test_alarm.TestAlarm" />
       <item itemvalue="Python tests.py.test for test_alarm.TestAlarm.test_alarm" />
       <item itemvalue="Python tests.py.test for test_alarm.TestAlarm.test_base64" />
-      <item itemvalue="Python tests.py.test for test_alarm.TestAlarm" />
+      <item itemvalue="Python tests.py.test for test_alarm.test_alarm" />
+      <item itemvalue="Python.1.两数之和" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.1.两数之和" />
         <item itemvalue="Python tests.py.test for test_alarm.TestAlarm" />
         <item itemvalue="Python tests.py.test for test_alarm.TestAlarm.test_alarm" />
         <item itemvalue="Python tests.py.test for test_alarm.TestAlarm.test_base64" />
         <item itemvalue="Python tests.py.test for test_alarm.test_alarm" />
-        <item itemvalue="Python tests.py.test for test_alarm.test_login" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration>C:\Users\admin\AppData\Roaming\Subversion</configuration>
   </component>
@@ -451,39 +383,17 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-              <option name="COLUMN_ORDER">
-                <list>
-                  <option value="0" />
-                  <option value="1" />
-                  <option value="2" />
-                  <option value="3" />
-                </list>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="mitmproxy-mock" />
     <MESSAGE value="requests-wechat" />
     <option name="LAST_COMMIT_MESSAGE" value="requests-wechat" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="3" />
-    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://D:/python3/Lib/site-packages/pytest/__init__.py">
