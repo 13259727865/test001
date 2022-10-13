@@ -1,27 +1,17 @@
-#!/usr/bin/env python
-# -*-coding:utf-8 -*-
-# @author:Gemini
-# @time:  2021/8/24:10:00
-# @email: 13259727865@163.com
-from typing import List
-
-
-class Solution(object):
-    def twoSum(self,nums:List[int],target:int):
-        s = 0
-        for i in nums:
-            j = target - i
-            try:
-                 j_index= nums.index(j,s+1)
-            except:
-                print("未找到")
-                s += 1
-            else:
-                return s,j_index
+import subprocess,psutil
+import time
 
 if __name__ == '__main__':
-    a = Solution()
-    nums = [3,2,4,2,1,4,2,3,4,5,6,5,4,3,6]
-    target = 8
-    print(a.twoSum(nums, target))
+    bat_path = r"D:\Program Files(x86)\Luxflows\LuxFlow1.2.0_0822\LuxFlow_V1.2.0.0822\LuxFlow.exe"
 
+    process = subprocess.Popen(bat_path,shell=True,encoding="utf-8")
+
+
+    time.sleep(3)
+    print(process.pid)
+    print(psutil.Process(process.pid).name())
+    print(psutil.Process(process.pid).is_running())
+    print(psutil.pid_exists(process.pid))
+
+    # child = subprocess.Popen(['ping','-c','4','www.baidu.com'])
+    # print('parent')
